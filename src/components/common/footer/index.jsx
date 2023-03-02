@@ -31,7 +31,7 @@ export default memo(Footer)
 				
 				// Form Value to store in database
 				console.log(userEmail);
-				await axios.post("http://localhost:5000/api/v1/subscribe",{
+				await axios.post("http://43.206.15.162:5000/api/v1/subscribe",{
 					 
 					userEmail:userEmail,
 						  }).then((res)=>{
@@ -45,21 +45,20 @@ export default memo(Footer)
 					subscriptionMsg.innerHTML = "Subscription Status";
 				}, 5000);
 							}).catch((err)=>{
-								subscriptionMsg.innerHTML = "The email is invalid. Please try again."
-				subscriptionMsg.classList.remove("show", "subscription__success");
-				subscriptionMsg.classList.add("subscription__failure", "show");
-				setTimeout(() =>
-				{
-					subscriptionMsg.classList.remove("show", "subscription__failure");
-					subscriptionMsg.innerHTML = "Subscription Status";
-				}, 5000);
-							})
-							
+								});	
 							 
 						
 			}
 			else
-			{
+			{ subscriptionMsg.innerHTML = "Please try again."
+                                subscriptionMsg.classList.remove("show", "subscription__success");
+                                subscriptionMsg.classList.add("subscription__failure", "show");
+                                setTimeout(() =>
+                                {
+                                        subscriptionMsg.classList.remove("show", "subscription__failure");
+                                        subscriptionMsg.innerHTML = "Subscription Status";
+                                }, 5000);
+                                                      
 				console.log("Invalid Email");
 				
 			}

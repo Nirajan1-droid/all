@@ -71,7 +71,7 @@ export default function BuyPage(prop)
 					</div>
 					<div className="buy__page--action flex__row">
 					<Link
-							to={`/order_page#order__id`}
+							to={`/order_page`}
 							className="linker nav__item--g"
 							state={{
 								from: "buy",

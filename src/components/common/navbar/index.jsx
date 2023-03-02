@@ -20,9 +20,8 @@ export default function Navbar()
 					</div>
 				</Link>
 				<ul className="navbar__menu flex__row">
-					<li className="navbar__menu--item flex__row flex__center">Specs</li>
-					<li className="navbar__menu--item flex__row flex__center">Support</li>
-					<li className="navbar__menu--item flex__row flex__center">
+					
+										<li className="navbar__menu--item flex__row flex__center">
 						<Link
 							to={`/cart_page#cart__id`}
 							className="linker nav__item--g"

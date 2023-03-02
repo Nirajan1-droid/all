@@ -11,7 +11,7 @@ export default function OrderPage(props)
 {
 	const {user} = useContext(Context);
 	
-	console.log(`${user.email}`)
+	
 	const location = useLocation();
 	let from, amount;
 	if(location.state)
@@ -45,7 +45,7 @@ export default function OrderPage(props)
 		{
 			if(addressInput.value && phoneInput.value)
 			{
-				await axios.post("http://localhost:5000/api/v1/placeorder",{
+				await axios.post("http://43.206.15.162:5000/api/v1/placeorder",{
 					Delivery:addressInput.value,
 					Phone:phoneInput.value,
 					numberofearbud:props.amount,

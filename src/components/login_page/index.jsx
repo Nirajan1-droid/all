@@ -28,7 +28,7 @@ export default function LoginPage()
 	  e.preventDefault();
 	  dispatch({type:"LOGIN_START"});
 	  
-		  const res = await axios.post("http://localhost:5000/api/v1/login",{
+		  const res = await axios.post("http://43.206.15.162:5000/api/v1/login",{
 			email : userRef.current.value,
 			password : passwordRef.current.value,
 		  }).then((res) => {
@@ -49,24 +49,7 @@ export default function LoginPage()
 			}
 		});
 		 
-		if (success) {
-			const alertElement = document.createElement('div');
-			alertElement.classList.add('alert');
-			alertElement.textContent = 'Successfully logged in!';
-			document.body.appendChild(alertElement);
-			setTimeout(() => {
-			  alertElement.style.display = 'none';
-			}, 2000);
-		}else{
-			const alertElement = document.createElement('div');
-			alertElement.classList.add('alert');
-			alertElement.textContent = 'Successfully logged in!';
-			document.body.appendChild(alertElement);
-			setTimeout(() => {
-			  alertElement.style.display = 'none';
-			}, 2000);
-	
-		}
+
 	}
 	return (
 		<div id='login__id' className="login__page--container">

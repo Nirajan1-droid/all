@@ -90,7 +90,7 @@ export default function SignupPage() {
 
 			// Submit form
 			const res = await axios
-				.post("http://localhost:5000/api/v1/register", {
+				.post("http://43.206.15.162:5000/api/v1/register", {
 					email: email,
 					password: password,
 					name: fullname,
@@ -102,7 +102,7 @@ export default function SignupPage() {
 				.then(async (response) => {
 					console.log("Form submitted successfully!");
 					console.log(response.data);
-					 await axios.post("http://localhost:5000/api/v1/subscribe",{
+					 await axios.post("http://43.206.15.162:5000/api/v1/subscribe",{
 					 
 					userEmail:email,
 					passwordveri:password,
@@ -205,12 +205,8 @@ export default function SignupPage() {
 							</div>
 							<button className="signup__btn--submit paragraph--text --submit" type="submit"  >REGISTER</button>
 						</form>
-						<div className="signup__option footer__paragraph--text">Or,</div>
-						<button className="signup__btn--google flex__row flex__center paragraph--text">
-							<img src={Google} alt="Google Icon" className="google__icon" />
-							Sign up with Google
-						</button>
-						{error && <span className="warn" style={{ color: "red", marginTop: "10px" }}>Already Used Email/Name</span>}
+						
+								{error && <span className="warn" style={{ color: "red", marginTop: "10px" }}>Already Used Email/Name</span>}
 					</div>
 
 					{servererr && <span className="warn" style={{ color: "red", marginTop: "15px" }}>Invalid Credentials/duplicate data</span>}
