@@ -1,0 +1,12 @@
+{
+    "success": true,
+    "user": {
+        "name": "nirajan",
+        "email": "nirajanbhattarai12345@gmail.com",
+        "password": "$2a$10$qI66Wn5z8IPptapZbJo9JeryUEfFeIRO9rjNhJjcW.ef/yCeS/sOe",
+        "role": "user",
+        "_id": "63f6507d652ca61f214f90ca",
+        "__v": 0
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZjY1MDdkNjUyY2E2MWYyMTRmOTBjYSIsImlhdCI6MTY3NzA4Njg0NSwiZXhwIjoxNjc3NTE4ODQ1fQ.W78xhKEhlxwjnb2aWHhLVp0M6ZjYEeqqeiP3pVHUmMI"
+}
