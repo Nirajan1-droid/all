@@ -1,0 +1,60 @@
+@media screen and (max-width: 767px) {
+	.badge__section--box
+	{
+		margin: auto;
+		/* margin-top: 3rem; */
+		/* border: 2px solid red; */
+	}
+	.badge__section--container
+	{
+		
+		/* border: 2px solid red; */
+		width: 95%;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	.badge__line
+	{
+		height: 1.5px;
+		background-color: var(--line);
+		width: 80%;
+		margin: 2rem 0;
+	}
+	
+	.fast__delivery, .satisfaction__guarentee, .customer__service
+	{
+		/* border: 2px solid red; */
+		width: 45%;
+		padding: 0.5rem;
+		/* background-color: var(--bg); */
+		
+	}
+	.customer__service
+	{
+		/* width: 50%; */
+
+	}
+	.fast__delivery--badge, .satisfaction__guarentee--badge, .customer__service--badge
+	{
+		width: 100%;
+		/* border: 2px solid red; */
+	}
+	.fast__delivery--image, .satisfaction__guarentee--image, .customer__service--image
+	{
+		width: 100%;
+		/* border: 2px solid red; */
+	}
+	.fast__delivery--content, .satisfaction__guarentee--content, .customer__service--content
+	{
+		/* border: 2px solid red; */
+		font-size: var(--mobile-paragraph) !important;
+		width: 100%;
+		text-align: center;
+	}
+	.customer__service--content
+	{
+		width: 120%;
+	}
+}

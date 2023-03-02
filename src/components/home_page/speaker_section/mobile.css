@@ -1,0 +1,53 @@
+@media screen and (max-width: 767px) {
+	.speaker__section
+	{
+		margin-top: 2rem;
+		padding: 1rem;
+		/* border: 2px solid red; */
+	}
+	.speaker__container
+	{
+		flex-direction: column-reverse;
+		/* border: 2px solid red; */
+		gap: 0rem;
+	}
+	.speaker__image--container
+	{
+		height: 95vw;
+		/* border: 2px solid red; */
+		/* background-color: red; */
+	}
+	.speaker__line
+	{
+		margin-top: 3rem;
+		width: 80%;
+		height: 2px;
+		/* border: 2px solid red; */
+	}
+	.speaker__details
+	{
+		margin-top: 3rem;
+		text-align: center;
+		/* border: 2px solid green; */
+	}
+	.speaker__title
+	{
+		/* padding: 0 10rem; */
+		/* border: 2px solid red; */
+		font-size: var(--mobile-title) !important;
+		width: 80%;
+	}
+	.speaker__subtitle
+	{
+		width: 80%;
+		margin-top: 20px;
+		/* border: 2px solid red; */
+		font-size: var(--mobile-subtitle) !important;
+	}
+	.speaker__content
+	{
+		/* border: 2px solid red; */
+		width: 90%;
+		font-size: var(--mobile-paragraph) !important;
+	}
+}

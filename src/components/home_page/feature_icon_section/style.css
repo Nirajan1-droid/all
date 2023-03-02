@@ -1,0 +1,11 @@
+.feature__icon--section
+{
+	margin: auto;
+	/* border: 2px solid red; */
+	width: 80%;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 3rem;
+}
+
+

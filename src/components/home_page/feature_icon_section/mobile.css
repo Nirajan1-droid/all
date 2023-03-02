@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+	.feature__icon--section
+	{
+		margin: auto;
+		/* border: 2px solid red; */
+		width: 80%;
+		/* padding: 2rem; */
+		gap: 1rem;
+		justify-content: space-around;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		margin-top: 3rem;
+	}
+}

@@ -1,0 +1,7 @@
+@media screen and (max-width: 767px) {
+	.feature__info
+	{
+		width: 100px;
+		/* border: 2px solid red; */
+	}
+}

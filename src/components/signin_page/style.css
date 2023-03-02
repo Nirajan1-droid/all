@@ -1,0 +1,135 @@
+.signup__page--container
+{
+	/* color: red; */
+	/* border: 2px solid red; */
+}
+
+.signup__page--box
+{
+	min-height: 50vh;
+	margin: auto;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	padding: 1rem;
+	/* border: 2px solid red; */
+	width: fit-content;
+	background-color: var(--bg);
+	border-radius: 5px;
+	/* height: 80vh; */
+}
+.signup__page--form
+{
+	/* border: 2px solid red; */
+	padding: 1rem;
+	margin-top: 1rem;
+	gap: 0.5rem;
+}
+.signup__redirect .linker
+{
+	/* border: 2px solid red; */
+	color: var(--link);
+}
+.signup__identifier, .signup__pw, .signup__btn--submit, .signup__name, .signup__phone, .signup__address, .signup__btn--google, .district__selector, .gender__selector
+{
+	height: 45px;
+	width: 500px;
+	padding: 0.5rem;
+	border: 1px solid var(--line);
+	border-radius: 5px;
+}
+.signup__pw, .signup__name, .signup__phone, .signup__address, .district__selector, .gender__selector
+{
+	/* border: 2px solid red; */
+	width: 100%;
+}
+.pw__container, .fullname__container
+{
+	width: 100%;
+	/* border: 2px solid red; */
+
+}
+.signin__msg
+{
+	font-size: var(--error-text);
+	color: var(--failure);
+	/* border: 2px solid red; */
+	line-height: var(--error-text);
+	padding-left: 0.5rem;
+	visibility: hidden;
+}
+.email__message.show, .pw__message.show, .fullname__message.show
+{
+	visibility: visible;
+}
+.signup__phone--address, .street__gender--field, .password__fullname--field
+{
+	width: 500px;
+	justify-content: space-between;
+	gap: calc(var(--error-text) + 0.5rem);
+	align-items: center;
+}
+.street__gender--field
+{
+	margin-top: var(--error-text);
+}
+.signup__phone, .signup__address
+{
+	width: 100%;
+}
+#districts, .gender__selector
+{
+	/* border: 2px solid red; */
+	max-height: 500px;
+	color: var(--grey-text);
+	overflow: scroll;
+}
+.signup__identifier::placeholder, .signup__pw::placeholder
+{
+	color: var(--grey-text);
+}
+.signup__option
+{
+	color: var(--grey-text);
+}
+.signup__btn--submit, .signup__btn--google
+{
+	background-color: var(--primary);
+	color: var(--white-text);
+	border-color: transparent;
+	filter: drop-shadow(0 5px 5px var(--grey-bg));
+}
+.signup__btn--google
+{
+	background-color: var(--white);
+	color: var(--black-text);
+	gap: 1rem;
+}
+.google__icon
+{
+	width: 24px;
+}
+.signup__subscription:hover, .signup__agreement--label:hover
+{
+	cursor: pointer;
+}
+.signup__agreement
+{
+	gap: 0.5rem;
+	color: var(--grey-text);
+}
+/* Chrome, Safari, Edge, Opera */
+.signup__phone--address input::-webkit-outer-spin-button,
+.signup__phone--address input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.signup__phone--address input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.signup__btn--submit:hover, .signup__btn--google:hover
+{
+	cursor: pointer;
+}

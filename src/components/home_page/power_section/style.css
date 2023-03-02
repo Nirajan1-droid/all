@@ -1,0 +1,39 @@
+.power__section--container
+{
+	text-align: center;
+	margin-top: 6rem;
+}
+.power__section--title
+{
+	
+	width: 500px;
+}
+.power__section--features
+{
+	/* background-color: var(--bg); */
+	width: 80%;
+	margin: auto;
+	margin-top: 3rem;
+	padding: 1rem 0;
+	padding-top: 3rem;
+	justify-content: space-between;
+	/* border: 2px solid red; */
+}
+.power__feature
+{
+	width: 300px;
+	/* border: 2px solid red; */
+}
+.power__image--container
+{
+	width: 80px;
+}
+.power__image
+{
+	width: 100%;
+}
+.power__feature--info
+{
+	width: 90%;
+	margin-top: 10px;
+}

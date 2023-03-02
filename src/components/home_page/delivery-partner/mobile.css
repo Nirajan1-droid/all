@@ -1,0 +1,31 @@
+@media screen and (max-width: 767px) {
+	.delivery__partner--container
+	{
+		width: 90%;
+		margin: auto;
+		margin-top: 5rem;
+		/* border: 2px solid red; */
+		
+	}
+	.delivery__bg--box
+	{
+		/* border: 2px solid green; */
+		margin: auto;
+		margin-top: 10px;
+		width: 100%;
+	}
+	.delivery__partner
+	{
+		margin: auto;
+		width: 90%;
+		/* border: 2px solid red; */
+		font-size: var(--mobile-title) !important;
+	}
+	.delivery__bg
+	{
+		/* position: absolute; */
+		height: 120px;
+		/* border: 2px solid red; */
+		/* transform: translateY(-50%); */
+	}
+}

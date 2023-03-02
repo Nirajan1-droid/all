@@ -1,0 +1,63 @@
+.speaker__section
+{
+	width: 100%;
+	height: fit-content;
+	margin-top: 3rem;
+	padding: 1rem;
+	color: var(--white-text);
+	/* border: 2px solid red; */
+}
+.speaker__container
+{
+	background-image: url("./wave.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/* border: 2px solid red; */
+	background-color: var(--bg);
+	flex-wrap: nowrap;
+	overflow: hidden;
+	gap: 3rem;
+}
+.speaker__image--container
+{
+	height: 500px;
+	/* border: 2px solid red; */
+	/* background-color: red; */
+}
+.speaker__image
+{
+	height: 100%;
+	filter: drop-shadow(0 0 10px black) hue-rotate(338deg) saturate(1) brightness(0.9);
+}
+.speaker__line
+{
+	margin: auto;
+	width: 2px;
+	height: 400px;
+	background-color: var(--line);
+	/* border: 2px solid red; */
+}
+.speaker__details
+{
+	width: 100%;
+	text-align: center;
+	/* border: 2px solid green; */
+}
+.speaker__title
+{
+	/* padding: 0 10rem; */
+	/* border: 2px solid red; */
+	width: 500px;
+}
+.speaker__subtitle
+{
+	width: 500px;
+	margin-top: 20px;
+	/* border: 2px solid red; */
+}
+.speaker__content
+{
+	/* border: 2px solid red; */
+	width: 500px;
+}

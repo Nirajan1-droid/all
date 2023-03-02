@@ -1,0 +1,119 @@
+.order__page--container
+{
+	min-height: 100vh;
+	/* border: 2px solid red; */
+	justify-content: space-between;
+}
+.order__page--box
+{
+	width: 80%;
+	/* border: 2px solid red; */
+	margin: 3rem auto;
+	justify-content: space-between;
+	gap: 0.5rem;
+}
+.order__page--info
+{
+	border-radius: 5px;
+	background-color: var(--bg);
+	padding: 1rem;
+	/* border: 2px solid  purple; */
+	/* height: fit-content; */
+	width: 50%;
+	gap: 0.5rem;
+}
+.add__address--title, .order__summary
+{
+	/* border: 2px solid green; */
+	width: 100%;
+	height: 40px;
+	border-radius: 7px;
+	background-color: var(--grey-bg);
+	color: var(--dark-grey-text);
+}
+.new__address
+{
+	/* border: 2px solid green; */
+	width: 100%;
+	gap: 0.5rem;
+}
+.new__address--input, .new__phone--input
+{
+	height: 35px;
+	width: 100%;
+	border-radius: 7px;
+	border: 1px solid var(--line);
+	padding: 0.5rem;
+}
+/* .add__btn
+{
+	border-radius: 7px;
+	width: 150px;
+	height: 35px;
+	border-color: transparent;
+	background-color: var(--grey-text);
+	color: var(--white-text);
+} */
+.order__page--product
+{
+	/* border: 2px solid green; */
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.5rem;
+}
+.order__page--image
+{
+	width: 70px;
+	filter: drop-shadow(0 5px 5px var(--grey-bg));
+}
+.order__page--invoice
+{
+	/* border: 2px solid blue; */
+	width: 50%;
+	padding: 1rem;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 1rem;
+	border-radius: 5px;
+	background-color: var(--bg);
+}
+.order__summary
+{
+	width: 100%;
+}
+.order__calculation
+{
+	width: 100%;
+}
+.order__price, .order__delivery--charge, .order__total
+{
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--dark-grey-text);
+}
+.place__order--btn
+{
+	height: 35px;
+	width: 100px;
+	border-color: transparent;
+	border-radius: 5px;
+	background-color: var(--primary);
+	color: var(--white-text);
+}
+.place__order--btn:hover, .add__btn:hover
+{
+	cursor: pointer;
+}
+/* Chrome, Safari, Edge, Opera */
+.new__address input::-webkit-outer-spin-button,
+.new__address input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.new__address input[type=number] {
+  -moz-appearance: textfield;
+}

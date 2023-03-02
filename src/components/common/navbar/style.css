@@ -1,0 +1,51 @@
+.navbar__section
+{
+	background-color: var(--ribbon);
+}
+.navbar__container
+{
+	color: var(--white-text);
+	width: 80%;
+	margin: auto;
+	/* border: 2px solid red; */
+	/* gap: 25rem; */
+	padding: 0.5rem 0.5rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.unicorn__logo--container:hover
+{
+	cursor: pointer;
+}
+.unicorn__logo--container
+{
+	width: 36px;
+	height: 36px;
+	/* border: 2px solid red; */
+}
+.unicorn__logo
+{
+	width: 100%;
+	border-radius: 50%;
+	/* border: 2px solid red; */
+}
+.navbar__menu
+{
+	gap: 5rem;
+	list-style: none;
+}
+.navbar__menu--item:hover
+{
+	cursor: pointer;
+}
+.navbar__menu--item
+{
+	/* border: 2px solid red; */
+	
+}
+.navbar__menu--item img
+{
+	/* border: 2px solid red; */
+	height: 18px;
+	filter: invert(0.95);
+}

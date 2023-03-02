@@ -1,0 +1,45 @@
+@media screen and (max-width: 767px) {
+	.hero__container
+	{
+		margin-top: calc(6rem - 60px);
+		width: 95%;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		/* border: 2px solid red; */
+	}
+	.hero__content
+	{
+		/* border: 2px solid red; */
+		margin-top: 2rem;
+		width: 100%;
+		gap: 0.7rem;
+	}
+	.hero__heading
+	{
+		/* border: 2px solid red; */
+		font-size: var(--mobile-title) !important;
+	}
+	.hero__subheading
+	{
+		/* border: 2px solid red; */
+		font-size: var(--mobile-subtitle) !important;
+	}
+	.hero__details
+	{
+		
+		/* border: 2px solid red; */
+		margin-top: 0.5rem;
+		padding: 0 1rem;
+		font-size: var(--mobile-paragraph) !important;
+	}
+	.hero__image--container
+	{
+		width: 250px;
+		/* height: 300px; */
+	}
+	.hero__buy--btn
+	{
+		margin-top: 1rem;
+	}
+}

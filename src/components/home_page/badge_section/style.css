@@ -1,0 +1,42 @@
+.badge__section--box
+{
+	margin: auto;
+	/* margin-top: 3rem; */
+	/* border: 2px solid red; */
+}
+.badge__section--container
+{
+	
+	/* border: 2px solid red; */
+	width: 80%;
+	align-items: center;
+	justify-content: space-between;
+}
+.badge__line
+{
+	height: 1.5px;
+	background-color: var(--line);
+	width: 80%;
+	margin: 3rem 0;
+}
+
+.fast__delivery, .satisfaction__guarentee, .customer__service
+{
+	/* border: 2px solid red; */
+	padding: 1rem;
+
+}
+.fast__delivery--badge, .satisfaction__guarentee--badge, .customer__service--badge
+{
+	width: 180px;
+	/* border: 2px solid red; */
+}
+.fast__delivery--image, .satisfaction__guarentee--image, .customer__service--image
+{
+	width: 100%;
+}
+.fast__delivery--content, .satisfaction__guarentee--content, .customer__service--content
+{
+	width: 200px;
+	text-align: center;
+}

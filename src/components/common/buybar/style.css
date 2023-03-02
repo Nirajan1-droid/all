@@ -1,0 +1,54 @@
+.buy__bar--section
+{
+	border-bottom: 1px solid var(--line);
+	/* border: 2px solid red; */
+	position: sticky;
+	top: 0px;
+	background-color: var(--bg);
+	z-index: 3;
+	filter: drop-shadow(0 3px 5px rgba(128, 128, 128, 0.238));
+	
+}
+.buy__bar--container
+{
+	/* border: 2px solid red; */
+	width: 80%;
+	margin: 0px auto;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+}
+.buy__heading
+{
+	color: var(--black-text);
+	width: 250px;
+	/* border: 2px solid red; */
+}
+.buy__motive
+{
+	/* border: 2px solid red; */
+	color: var(--dark-grey-text);
+}
+.buy__btn button:hover
+{
+	cursor: pointer;
+	/* border: 2px solid red; */
+	pointer-events: auto;
+}
+.buy__btn
+{
+	width: 250px;
+	/* border: 2px solid red; */
+	justify-content: flex-end;
+}
+.buy__btn button
+{
+	/* border: 2px solid red; */
+	border-color: transparent;
+	border-radius: 7px;
+	background-color: var(--primary);
+	/* width: 100px; */
+	padding: 5px 15px;
+	text-transform: capitalize;
+	color: var(--white);
+}

@@ -1,0 +1,50 @@
+.comfort__section--container
+{
+	margin: auto;
+	margin-top: 6rem;
+	width: 80%;
+}
+.comfort__features
+{
+	margin-top: 3rem;
+	/* border: 2px solid red; */
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	gap: 1rem;
+	/* height: auto; */
+}
+.comfort__content
+{
+	gap: 1rem;
+	width: 50%;
+	/* border: 2px solid red; */
+	text-align: center;
+}
+.comfort__image--container
+{
+	width: 50%;
+	height: fit-content;
+	/* border: 2px solid green; */
+	background-image: url("../../../img/features/runner.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.comfort__image
+{
+	max-width: 100%;
+	opacity: 0;
+}
+.sweat__proof--feature, .light__weight--feature
+{
+	width: 100%;
+	background-color: var(--bg);
+	padding: 1rem;
+	height: 50%;
+}
+.sweat__proof--info, .light__weight--info
+{
+	width: 80%;
+	/* margin: auto; */
+	margin-top: 1rem;
+}

@@ -1,0 +1,18 @@
+.testimonial__section--box
+{
+	/* border: 2px solid red; */
+	margin: 1rem;
+	margin-bottom: 0;
+	background-color: var(--bg);
+}
+.testimonial__section--container
+{
+	/* border: 2px solid red; */
+	width: 80%;
+	margin: auto;
+}
+.testimonial__title
+{
+	margin: 6rem 0;
+	margin-bottom: 3rem;
+}

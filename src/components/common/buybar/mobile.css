@@ -1,0 +1,39 @@
+@media screen and (max-width: 767px) {
+	.buy__bar--section
+	{
+		border-bottom-color: transparent;
+		border-top: 1px solid var(--line);
+		/* border: 2px solid red; */
+		position: fixed;
+		width: 100%;
+		top: calc(100% - 60px);
+		filter: drop-shadow(0 -3px 5px rgba(128, 128, 128, 0.238));
+		
+	}
+	.buy__bar--container
+	{
+		/* border: 2px solid red; */
+		height: 60px;
+	}
+	.buy__heading
+	{
+		width: 450px;
+		/* border: 2px solid red; */
+		font-size: 19px !important;
+	}
+	.buy__motive
+	{
+		/* border: 2px solid red; */
+		display: none;
+	}
+	.buy__btn
+	{
+		width: 350px;
+		/* border: 2px solid red; */
+	}
+	.buy__btn button
+	{
+		/* border: 2px solid red; */
+		width: 120px;
+	}
+}

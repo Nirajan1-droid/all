@@ -1,0 +1,93 @@
+@media screen and (max-width: 767px) {
+	.touch__feature--section
+	{
+		/* margin: 0 1rem; */
+		width: 95%;
+		margin: auto;
+		margin-top: 5rem;
+		padding: 2rem 0;
+		/* border: 2px solid green; */
+	}
+	.touch__feature--title
+	{
+		/* border: 2px solid green; */
+		font-size: var(--mobile-title) !important;
+		width: 80%;
+	}
+	.touch__feature--subtitle
+	{
+		font-size: var(--mobile-paragraph) !important;
+		/* border: 2px solid green; */
+		margin-top: 10px;
+		width: 100%;
+		padding: 0 1rem;
+	}
+	.touch__feature--content
+	{
+		margin-top: 3rem;
+		/* border: 2px solid green; */
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	.touch__features
+	{
+		width: 100%;
+		flex-wrap: wrap;
+		/* border: 2px solid green; */
+		gap: 0.5rem;
+		padding: 1rem 0;
+
+	}
+	.touch__feature--box
+	{
+		/* border: 2px solid red; */
+		width: 45%;
+		padding: 1.5rem 1rem;
+	}
+	.touch__feature--icon--box
+	{
+		/* border: 2px solid red; */
+		width: 60px;
+		height: 60px;
+		padding: 15px;
+	}
+	.touch__feature--info
+	{
+		/* border: 2px solid red;  */
+		margin-top: 10px;
+		width: 100%;
+	}
+	.touch__image--box
+	{
+		width: 90%;
+		height: 400px;
+		/* border: 2px solid red;  */
+	}
+	.touch__image--container
+	{
+		width: 320px;
+		height: 100%;
+		/* border: 2px solid red;  */
+	}
+	#touch__earbud
+	{
+		width: 150px;
+		left: 15%;
+		/* bottom: 10% !important; */
+		/* border: 2px solid red;  */
+	}
+	#touch__fingerprint
+	{
+		width: 80px;
+		/* bottom: 55% !important; */
+		left: 35%;
+		
+	}
+	#touch__hand
+	{
+		width: 120px;
+		bottom: 75% !important;
+		left: 50%;
+	}
+}

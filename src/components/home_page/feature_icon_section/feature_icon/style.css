@@ -1,0 +1,28 @@
+.feature__icon--box
+{
+	width: 100px;
+	/* border: 2px solid red; */
+	
+}
+.feature__icon:hover
+{
+	cursor: pointer;
+	background-color: var(--bg);
+}
+.feature__icon
+{
+	width: 100%;
+	/* border: 2px solid red; */
+	padding: 1rem;
+	border-radius: 7px;
+	background-color: var(--grey-bg);
+	transition: all 0.15s ease-in;
+}
+.feature__info
+{
+	width: 150px;
+	text-align: center;
+	color: var(--dark-grey-text);
+	/* border: 2px solid red; */
+}
+

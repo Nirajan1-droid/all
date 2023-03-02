@@ -1,0 +1,35 @@
+.delivery__partner--container
+{
+	width: 80%;
+	margin: auto;
+	margin-top: 6rem;
+	margin-bottom: 0;
+	/* border: 2px solid red; */
+	
+}
+.delivery__bg--box
+{
+	/* border: 2px solid green; */
+	margin-top: 20px;
+	position: relative;
+	height: 200px;
+	background: url("../../../img/delivery_img/map-bg.jpeg") no-repeat;
+	background-size: cover;
+	background-position: 4px;
+	background-position-y: -15px;
+	justify-content: space-around;
+	align-items: center;
+	color: var(--belaima-text)
+}
+.delivery__partner
+{
+	text-align: center;
+}
+.delivery__bg
+{
+	/* position: absolute; */
+	height: 150px;
+	top: 50%;
+	/* transform: translateY(-50%);
+	right: 6rem; */
+}

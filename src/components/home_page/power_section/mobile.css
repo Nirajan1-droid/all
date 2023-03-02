@@ -1,0 +1,43 @@
+@media screen and (max-width: 767px) {
+	.power__section--container
+	{
+		margin-top: 5rem;
+	}
+	.power__section--title
+	{
+		width: 80%;
+		font-size: var(--mobile-title) !important;
+		/* border: 2px solid red; */
+	}
+	.power__section--features
+	{
+		width: 95%;
+		margin-top: 2rem;
+		padding: 1rem 0;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 1rem;
+		/* border: 2px solid red; */
+	}
+	.power__feature
+	{
+		width: 45%;
+		/* border: 2px solid red; */
+	}
+	.power__image--container
+	{
+		width: 70px;
+	}
+	.power__image
+	{
+		width: 100%;
+	}
+	.power__feature--info
+	{
+		/* border: 2px solid red; */
+		width: 90%;
+		margin-top: 10px;
+		font-size: var(--mobile-mini-paragraph) !important;
+	}
+}
