@@ -2,6 +2,8 @@
 {
 	/* color: red; */
 	/* border: 2px solid red; */
+	min-height: 100vh;
+	justify-content: space-between;
 }
 
 .signup__page--box
@@ -28,6 +30,10 @@
 {
 	/* border: 2px solid red; */
 	color: var(--link);
+}
+.signup__page--signup--redirect, .signup__page--greet
+{
+	text-align: center;
 }
 .signup__identifier, .signup__pw, .signup__btn--submit, .signup__name, .signup__phone, .signup__address, .signup__btn--google, .district__selector, .gender__selector
 {
@@ -65,7 +71,7 @@
 {
 	width: 500px;
 	justify-content: space-between;
-	gap: calc(var(--error-text) + 0.5rem);
+	gap: calc(var(--error-text));
 	align-items: center;
 }
 .street__gender--field

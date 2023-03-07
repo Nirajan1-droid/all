@@ -27,16 +27,16 @@ export default memo(Footer)
 			if(userEmail.match(reg))
 			{
 				// console.log("Valid Email");
-				
+				console.log("sending ..");
 				
 				// Form Value to store in database
 				console.log(userEmail);
-				await axios.post("http://43.206.15.162:5000/api/v1/subscribe",{
+				await axios.post("/api/v1/subscribe",{
 					 
 					userEmail:userEmail,
 						  }).then((res)=>{
-							  res.send();
-							  subscriptionMsg.innerHTML = "You have successfully subscribed!"
+							alert("Subscription added Sucessfully");
+							   subscriptionMsg.innerHTML = "You have successfully subscribed!"
 							  subscriptionMsg.classList.remove("show", "subscription__failure");
 				subscriptionMsg.classList.add("subscription__success", "show");
 				setTimeout(() =>
@@ -45,12 +45,15 @@ export default memo(Footer)
 					subscriptionMsg.innerHTML = "Subscription Status";
 				}, 5000);
 							}).catch((err)=>{
+alert("Already added");
 								});	
 							 
 						
 			}
 			else
-			{ subscriptionMsg.innerHTML = "Please try again."
+			{ 
+alert("Validation failed, provide authentic email");
+subscriptionMsg.innerHTML = "Please try again."
                                 subscriptionMsg.classList.remove("show", "subscription__success");
                                 subscriptionMsg.classList.add("subscription__failure", "show");
                                 setTimeout(() =>
@@ -59,7 +62,7 @@ export default memo(Footer)
                                         subscriptionMsg.innerHTML = "Subscription Status";
                                 }, 5000);
                                                       
-				console.log("Invalid Email");
+				alert("Invalid Email");
 				
 			}
 		}

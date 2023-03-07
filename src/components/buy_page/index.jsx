@@ -7,7 +7,7 @@ import { useState } from "react";
 import { HashLink as Link} from 'react-router-hash-link';
 import ReactImageZoom from "react-image-zoom";
 import "./style.css"
-
+import "./mobile.css"
 export default function BuyPage(prop)
 {
 	let stock = 50;

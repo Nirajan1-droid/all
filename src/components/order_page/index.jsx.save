@@ -1,4 +1,3 @@
-
 import React, { useContext } from 'react'
 import { useEffect } from 'react';
 import Navbar from '../common/navbar';
@@ -22,7 +21,7 @@ export default function OrderPage(props)
 		amount = location.state.amount;
 		console.log(from, amount);
 	}
-let original = 2999;
+	
 	let actualPrice = 2799;
 	let price 
 	if(!props.amount){
@@ -133,16 +132,7 @@ let original = 2999;
 					<div className="order__summary medium__paragraph--text flex__row flex__center">Order Summary</div>
 					<div className="order__calculation">
 						<div className="order__price flex__row">
-<div className="order__calculation--key nav__heading--text">Product Price</div>
-
-                                                        <div className="order__calculation--value nav__heading--text">{`Rs. ${original}`}</div>
-
-                                                </div>
-<br/><br/> 
-<div className="order__price flex__row">						
-
-<div className="order__calculation--key nav__heading--text">OFFER PRICE</div>
-                                                        
+							<div className="order__calculation--key nav__heading--text">Product Price</div>
 							<div className="order__calculation--value nav__heading--text">{`Rs. ${price}`}</div>
 						</div>
 						<div className="order__delivery--charge flex__row">

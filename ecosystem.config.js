@@ -1,10 +1,11 @@
 {
   apps : [{
     name: "sites",
-    script: "/src/index.js",
-    watch: true,
+    script: "npm",
+    watch: true
+,"args": ["start", "--", "--port", "3000"],
     env: {
-"PORT": 3000, 
+
 "NODE_ENV": "production"
     }
   }]

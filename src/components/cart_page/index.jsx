@@ -1,9 +1,11 @@
-import React from 'react'
+import React , {useState}from 'react'
 import Navbar from '../common/navbar'
 import Footer from '../common/footer'
 import "./style.css"
+import "./mobile.css"
 import Earbud from "../../img/earbud/buy_earbud.png"
 import { HashLink as Link } from 'react-router-hash-link'
+
 
 export default function CartPage(props) 
 {
@@ -14,16 +16,34 @@ export default function CartPage(props)
 			props.updateQty(true);
 		}
 	}
+
 	function decrement() {
 		if (props.amount > 1) {
 			props.updateQty(false);
 		}
 	}
+	const [buttonClicked, setButtonClicked] = useState(false);
+
+ 
+
+function deleteFromCart() {
+	
+	 
+	
+     setButtonClicked(true)  
+
+
+	 
+  
+  
+
+	 
+	 
+  }
+
 	// function deleteFromCart()
 	// {
-	// 	props.updateQty(false);
-	// 	// alert("Product has been removed from your cart.");
-		
+	// 	alert("Product has been removed from your cart.");
 	// }
 
 	let EmptyCart = ()=>
@@ -32,10 +52,21 @@ export default function CartPage(props)
 			<div className="empty__cart--container flex__col flex__center">
 				<div className="empty__cart--title subheading__title--text">Nothing has been added</div>
 				<div className="empty__cart--action medium__paragraph--text">Please click below</div>
-				<Link to={'/buy_page'}><button className="empty__cart--btn" style={{cursor: 'pointer'}}>Buy</button></Link>
+				<Link
+							to={`/buy_page#buy__id`}
+							className="linker nav__item--g"
+							state={{
+								from: "cart",
+								amount: props.amount,
+							}}
+				>
+					<button className="empty__cart--btn">Buy</button>
+				</Link>
 			</div>
 		);
 	}
+	let valuevalue = props.amount;
+	 
 	let FilledCart = () =>
 	{
 		return (
@@ -59,7 +90,7 @@ export default function CartPage(props)
 					<div className="item--action flex__row">
 						<Link
 							to={`/order_page#order__id`}
-							className="linker nav__item--g"
+							className="linker cart__order--link"
 							state={{
 								from: "cart",
 								amount: props.amount,
@@ -67,29 +98,39 @@ export default function CartPage(props)
 						>
 							<button className="item--order">Order Now</button>
 						</Link>
-						<button className="item--delete">Delete</button>
+						<button className="item--delete" onClick={deleteFromCart}>Delete</button>
 					</div>
 				</div>
 			</div>
 		);
 	}
 	return (
-		<>
 		<div id='cart__id' className="cart__page--container flex__col">
 			<Navbar/>
-			{props.amount ?
-				 
-				 (<div className="cart__page--box" style={{height: 'auto'}} >
-					
-
-				<div className="cart__page--title subheading__title--text">Your Cart: </div>
-					 
-				<FilledCart/></div> )
-				: 
-				<EmptyCart/>}
-			 
-		</div>
+			<div className="cart__page--box">
+					<div className="cart__page--title subheading__title--text">Your Cart: </div>
+					{buttonClicked?(<EmptyCart/>):(<FilledCart/>)}
+					{/* {props.hasItem ? <FilledCart/> : <EmptyCart/>} */}
+					{/* if(valuevalue ) */}
+					{/* <FilledCart/> */}
+					{/* <FilledCart/> */}
+			</div>
 			<Footer/>
-				</>
+		</div>
 	);
 }
+
+// <button className="item--delete" onClick={deleteFromCart}>Delete</button>
+// function deleteFromCart()
+// {
+// 	alert("Product has been removed from your cart.");
+// }
+
+// <button className="item--delete" onClick={(e) => deleteFromCart(e)}>Delete</button>
+
+// let lastClickedEvent = null;
+
+// function deleteFromCart(event) {
+//   alert("Product has been removed from your cart.");
+//   lastClickedEvent = event;
+// }

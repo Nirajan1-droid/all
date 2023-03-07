@@ -9,7 +9,8 @@
 	width: 80%;
 	/* border: 2px solid red; */
 	margin: 3rem auto;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: center;
 	gap: 0.5rem;
 }
 .order__page--info
@@ -19,7 +20,8 @@
 	padding: 1rem;
 	/* border: 2px solid  purple; */
 	/* height: fit-content; */
-	width: 50%;
+	min-width: 450px;
+	width: 49%;
 	gap: 0.5rem;
 }
 .add__address--title, .order__summary
@@ -37,7 +39,7 @@
 	width: 100%;
 	gap: 0.5rem;
 }
-.new__address--input, .new__phone--input
+.new__address--input, .new__phone--input,.new__email--input
 {
 	height: 35px;
 	width: 100%;
@@ -70,7 +72,8 @@
 .order__page--invoice
 {
 	/* border: 2px solid blue; */
-	width: 50%;
+	min-width: 450px;
+	width: 49%;
 	padding: 1rem;
 	justify-content: center;
 	align-items: flex-end;

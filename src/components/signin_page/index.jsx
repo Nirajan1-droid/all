@@ -90,7 +90,7 @@ export default function SignupPage() {
 
 			// Submit form
 			const res = await axios
-				.post("http://43.206.15.162:5000/api/v1/register", {
+				.post("/api/v1/register", {
 					email: email,
 					password: password,
 					name: fullname,
@@ -102,47 +102,33 @@ export default function SignupPage() {
 				.then(async (response) => {
 					console.log("Form submitted successfully!");
 					console.log(response.data);
-					 await axios.post("http://43.206.15.162:5000/api/v1/subscribe",{
+alert("Registered sucessfully");
+					 
+await axios.post("/api/v1/subscribe",{
 					 
 					userEmail:email,
 					passwordveri:password,
 					  }).then((res)=>{
 						  res.send();
+					
 						  
 						  
 						}).catch((err)=>{
-							console.log("subscription failed. Please fix errors and try again.");
+							alert("failed to sent credentails ");
 						})
 				})
 				.catch((error) => {
-					console.log("Form submission failed. Please try again.");
-					console.log(error);
-
-					if (error.code === 500) {
-						// Duplicate key error
-						// You can log the error or handle it in any other way you want
-						console.error("Duplicate key error:", error);
-						// setEmailerror(true);
-					} else if (error.code === 500 || 301 || 400) {
-						setServererr(true);
-
-					}
-
+					alert("validation at server failed")
+				})}
 					else {
 						setServererr(true);
 
-						console.log("Form submission failed. Please fix errors and try again.");
+						alert("Please fix errors and try again.");
 
 					}
-				});
+				}
 				
-		}else {
-			setServererr(true);
-
-			console.log("Form submission failed. Please fix errors and try again.");
-
-		}};
-
+		 
 
 
 
@@ -206,10 +192,10 @@ export default function SignupPage() {
 							<button className="signup__btn--submit paragraph--text --submit" type="submit"  >REGISTER</button>
 						</form>
 						
-								{error && <span className="warn" style={{ color: "red", marginTop: "10px" }}>Already Used Email/Name</span>}
+								{error && <span className="warn" style={{ color: "red", marginTop: "10px" }}>Authorization failed</span>}
 					</div>
 
-					{servererr && <span className="warn" style={{ color: "red", marginTop: "15px" }}>Invalid Credentials/duplicate data</span>}
+					{servererr && <span className="warn" style={{ color: "red", marginTop: "15px" }}>Invalid </span>}
 
 
 				</div>

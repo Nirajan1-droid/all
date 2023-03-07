@@ -28,21 +28,23 @@ export default function LoginPage()
 	  e.preventDefault();
 	  dispatch({type:"LOGIN_START"});
 	  
-		  const res = await axios.post("http://43.206.15.162:5000/api/v1/login",{
+		  const res = await axios.post("/api/v1/login",{
 			email : userRef.current.value,
 			password : passwordRef.current.value,
 		  }).then((res) => {
 		 
 			  res.data && (window.location.replace('/order_page') && setSuccess(true));
 			  dispatch({type :"LOGIN_SUCCESS", payload:res.data});
-			
+			alert("LOGIN Success")
 			setError(false)
 			setServererr(false);
 			 
 		}).catch((err)=>{ 
-			dispatch({type:"LOGIN_FAILURE"})
+alert("login error");			
+dispatch({type:"LOGIN_FAILURE"})
 			if (err.code === 401 || err.code === 403 || err.code === 404) {
-			  setError(true);
+setError(true);			 
+ 
 			}else{//for 500 which is internal server error
 			  setServererr(true);
 			  setSuccess(false);
