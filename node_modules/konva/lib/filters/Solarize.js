@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Solarize = function (imageData) {
+export const Solarize = function (imageData) {
     var data = imageData.data, w = imageData.width, h = imageData.height, w4 = w * 4, y = h;
     do {
         var offsetY = (y - 1) * w4;

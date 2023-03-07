@@ -8,7 +8,7 @@ export default function Carroussel(props) {
   });
 
   const [offsetRadius, setOffsetRadius] = useState(4);
-  const [showArrows, setShowArrows] = useState(false);
+  const [showArrows, setShowArrows] = useState(true);
   const [goToSlide, setGoToSlide] = useState(null);
   const [cards] = useState(table);
 

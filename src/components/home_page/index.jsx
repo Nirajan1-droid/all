@@ -28,7 +28,7 @@ export default function HomePage()
 			<TouchFeature/>
 			<PowerSection/>
 			<ConnectivitySection/>
-			{/* <TestimonialSection/> */}
+			<TestimonialSection/>
 			<DevileryPartner/>
 			<BadgeSection/>
 			<Footer/>

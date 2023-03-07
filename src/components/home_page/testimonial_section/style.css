@@ -4,6 +4,7 @@
 	margin: 1rem;
 	margin-bottom: 0;
 	background-color: var(--bg);
+	/* background-color: var(--white); */
 }
 .testimonial__section--container
 {
@@ -15,4 +16,33 @@
 {
 	margin: 6rem 0;
 	margin-bottom: 3rem;
+	text-align: center;
+}
+
+
+
+/* CSS for Mobile View */
+@media screen and (max-width: 767px) {
+	.testimonial__section--box
+	{
+		margin: auto;
+		margin-top: 1rem;
+		margin-bottom: 0;
+		width: 95%;
+		/* background-color: var(--white); */
+		/* border: 2px solid red; */
+	}
+	.testimonial__section--container
+	{
+		width: 100%;
+		margin: auto;
+		overflow: hidden;
+		/* border: 2px solid red; */
+	}
+	.testimonial__title
+	{
+		margin: 4rem 0;
+		margin-bottom: 2rem;
+		font-size: var(--mobile-title) !important;
+	}
 }

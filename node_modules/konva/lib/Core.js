@@ -1,5 +1,3 @@
-var Konva = require('./_CoreInternals').Konva;
-Konva._injectGlobal(Konva);
-exports['default'] = Konva;
-Konva.default = Konva;
-module.exports = exports['default'];
+export { Konva } from './_CoreInternals.js';
+import { Konva } from './_CoreInternals.js';
+export default Konva;

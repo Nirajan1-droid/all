@@ -1,4 +1,2 @@
-var Konva = require('./_FullInternals').Konva;
-Konva._injectGlobal(Konva);
-exports['default'] = Konva;
-module.exports = exports['default'];
+import { Konva } from './_FullInternals.js';
+export default Konva;

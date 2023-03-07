@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Sepia = function (imageData) {
+export const Sepia = function (imageData) {
     var data = imageData.data, nPixels = data.length, i, r, g, b;
     for (i = 0; i < nPixels; i += 4) {
         r = data[i + 0];
