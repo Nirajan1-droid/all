@@ -16,8 +16,8 @@ exports.registerUser = catchAsyncErrors(async (req, res, next) => {
       Address,
       Street
     });
-// res.status(200).json(user);
-    sendToken(user , 200 , res);
+ res.status(200).json(user);
+//    sendToken(user , 200 , res);
   });
 
 
@@ -49,26 +49,3 @@ exports.loginUser = catchAsyncErrors(async (req, res, next) => {
  sendToken(user , 200 , res)
 });
 
-exports.orderPlace = catchAsyncErrors(async (req, res, next) => {
-  const { Delivery, Phone,total,numberofearbud,userEmail } = req.body;
-console.log(userEmail);
-  // checking if user has given password and email both
-
-  if (!Delivery || !Delivery) {
-    return next(new ErrorHander("Please Enter DDELIVERY ADDRESS AND PHONE NUMBER", 400));
-  }
-  
-  const order = await Order.create({
-    deliveryadd:Delivery,
-    deliveryphone:Phone,
-    numberofearbud,
-    total,
-    userEmail
-
-  });
-res.status(200).json(order);
- 
-});
-
-
-  

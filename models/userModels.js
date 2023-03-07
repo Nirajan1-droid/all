@@ -14,7 +14,7 @@ const UserSchema = new mongoose.Schema({
       email: {
         type: String,
         required: [true, "Please Enter Your Email"],
-        unique: true,
+        unique:true,
         validate: [validator.isEmail, "Please Enter a valid Email"],
       },
       password: {
@@ -26,9 +26,9 @@ const UserSchema = new mongoose.Schema({
       phonenumber: {
         type: String,
         required: [true, "Please Enter Your Phone Number "],
-        minLength: [10, "phone number  should be 10 characters"],
+        minLength: [08, "phone number  should be 10 characters"],
         maxLength: [14, "Name cannot exceed 14 characters"],
-        unique:true,
+        
         
       },
       Address: {

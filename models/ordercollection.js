@@ -1,14 +1,14 @@
 const mongoose = require("mongoose")
  
 const orderSchema = new mongoose.Schema({
-    deliveryadd : {
+    Delivery : {
         type:String,
          required: [true, "Please Enter Your delivery address"],
     
     
 
     },
-    deliveryphone : {
+    Phone : {
         type:String,
          required: [true, "Please Enter Your phone number"],
          
