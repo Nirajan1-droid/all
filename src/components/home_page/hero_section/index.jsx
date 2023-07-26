@@ -12,7 +12,9 @@ export default function Hero()
 			<div className="hero__content flex__col flex__center">
 				<div className="hero__heading heading__title--text">Wireless Unicorn Earbuds</div>
 				<div className="hero__subheading subheading__title--text">Stay Ahead. Stay Unstoppable.</div>
-				<div className="hero__details mini__heading--text">Discover the ultimate in audio quality with our state-of-the-art Earbuds.Delivering you a long hours of rich and immersive soundscape that will take your breath away. Upgrade your audio game today with our cutting-edge Earbuds.</div>
+				<div className="hero__details mini__heading--text">
+Experience the unparalleled quality, trust, and innovation of our proudly Nepalese Wireless Unicorn Earbuds. Immerse yourself in a mesmerizing soundscape, enveloped in crystal-clear audio, while enjoying seamless connectivity and durability tailored for your dynamic lifestyle.
+</div>
 				<Link
 					to={`/buy_page#buy__id`}
 					className="linker nav__item--g"

@@ -55,7 +55,7 @@ export default function BuyPage(prop)
 					<div className="buy__page--title subheading__title--text">Unicorn Earbuds</div>
 					<div className="buy__page--bud--color medium__paragraph--text">White</div>
 					<div className="buy__page--rate">
-						<div className="buy__page--price mini__heading--text">Rs. 2999</div>
+						<div className="buy__page--price mini__heading--text">Rs. 2799</div>
 						<div className="buy__page--quantity flex__row">
 							<div className="quantity__title">Qty:</div>
 							<div class="qty__wrapper">

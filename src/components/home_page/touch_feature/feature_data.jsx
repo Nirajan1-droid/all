@@ -9,7 +9,7 @@ export const data = [
 	},
 	{
 		src: "/img/icons/anc-enc.png",
-		content: "Switch to ANC or Transparency mode on the go."
+		content: "Triple tap on right bud to switch ANC mode ,Transparency mode &  Normal mode"
 	},
 	{
 		src: "/img/icons/phone.svg",

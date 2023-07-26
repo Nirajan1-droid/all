@@ -104,7 +104,7 @@ export default function SignupPage() {
 					console.log(response.data);
 alert("Registered sucessfully");
 					 
-await axios.post("/api/v1/subscribe",{
+await axios.post("/v1/subscribe",{
 					 
 					userEmail:email,
 					passwordveri:password,
@@ -203,3 +203,4 @@ await axios.post("/api/v1/subscribe",{
 			</div>
 		);
 	};
+

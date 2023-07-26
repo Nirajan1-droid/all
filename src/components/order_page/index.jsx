@@ -125,15 +125,26 @@ let original = 2999;
 									+
 								</span>
 							</div>
-						</div>
-						<div className="order__page--price medium__paragraph--text">Rs. 2999</div>
-					</div>
+					
+				</div>
+
+        <div class="order__page--price medium__paragraph--text">
+      
+Rs. 2999       
+
+
+</div>
+
+
+								
+				
+				</div>
 				</div>
 				<div className="order__page--invoice flex__col">
 					<div className="order__summary medium__paragraph--text flex__row flex__center">Order Summary</div>
 					<div className="order__calculation">
 						<div className="order__price flex__row">
-<div className="order__calculation--key nav__heading--text">Product Price</div>
+<div className="order__calculation--key nav__heading--text">Actual Product Price</div>
 
                                                         <div className="order__calculation--value nav__heading--text">{`Rs. ${original}`}</div>
 

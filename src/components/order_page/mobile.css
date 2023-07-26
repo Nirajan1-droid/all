@@ -126,4 +126,32 @@
 	.new__address input[type=number] {
 	  -moz-appearance: textfield;
 	}
+
+ .order__page--product {
+    padding: 8px;
+  }
+
+  .order__page--name {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+  .order__page--details {
+    margin-bottom: 4px;
+  }
+
+  .order__page--price {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .discount {
+    margin-right: 0;
+    margin-bottom: 4px;
+  }
+
+  .actual-price {
+    margin-left: 0;
+  }
+
 }
