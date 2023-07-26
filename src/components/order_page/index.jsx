@@ -42,7 +42,7 @@ let original = 2999;
 	{	 
 		let orderBtn = document.querySelector(".place__order--btn");
 		let addressInput = document.querySelector(".new__address--input");
-		//#############################################
+		
 		let emailInput = document.querySelector(".new__email--input");
 
 		let phoneInput = document.querySelector(".new__phone--input");
@@ -51,7 +51,7 @@ let original = 2999;
 		{
 			if(addressInput.value && phoneInput.value && emailInput.value)
 			{
-				await axios.post("/api/v1/placeorder",{
+				await axios.post("/v1/placeorder",{
 					Delivery:addressInput.value,
 					Phone:phoneInput.value,
 					numberofearbud:props.amount,
