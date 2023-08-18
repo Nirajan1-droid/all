@@ -42,5 +42,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://3.111.181.109:5000/api/"
+  "proxy": "http://13.234.17.206:5000/api/",
+  "devDependencies": {
+    "web-vitals": "^3.4.0"
+  }
 }

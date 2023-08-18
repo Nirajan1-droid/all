@@ -51,7 +51,7 @@ let original = 2999;
 		{
 			if(addressInput.value && phoneInput.value && emailInput.value)
 			{
-				await axios.post("/v1/placeorder",{
+				await axios.post("/api/v1/placeorder",{
 					Delivery:addressInput.value,
 					Phone:phoneInput.value,
 					numberofearbud:props.amount,
