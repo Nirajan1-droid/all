@@ -1,0 +1,347 @@
+
+> site@0.1.0 start
+> react-scripts --openssl-legacy-provider start
+
+Starting the development server...
+
+Failed to compile.
+
+./src/reportWebVitals.js
+Module not found: Can't resolve 'web-vitals' in '/home/ubuntu/ecom/src'
+Compiling...
+Failed to compile.
+
+./node_modules/@react-spring/shared/dist/react-spring_shared.legacy-esm.js 1023:7
+Module parse failed: Unexpected token (1023:7)
+You may need an appropriate loader to handle this file type.
+|     var missingUnit = !unitRegex.test(output[0]) && output.find(function (value) {
+|       return unitRegex.test(value);
+>     })?.replace(numberRegex, "");
+|     var i = 0;
+|     return output[0].replace(numberRegex, function () {
+
+> site@0.1.0 start
+> react-scripts --openssl-legacy-provider start
+
+Starting the development server...
+
+Failed to compile.
+
+Module not found: Error: Can't resolve 'web-vitals' in '/home/ubuntu/ecom/src'
+WARNING in [eslint] 
+src/App.js
+  Line 11:10:  'useConstant' is defined but never used  no-unused-vars
+
+src/components/buy_page/index.jsx
+  Line 6:10:  'useState' is defined but never used  no-unused-vars
+
+src/components/cart_page/index.jsx
+  Line 68:6:  'valuevalue' is assigned a value but never used  no-unused-vars
+
+src/components/common/footer/index.jsx
+  Line 17:19:  Unnecessary escape character: \.                                                                                                                                                       no-useless-escape
+  Line 98:35:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/login_page/index.jsx
+  Line 1:17:   'useEffect' is defined but never used         no-unused-vars
+  Line 5:8:    'Footer' is defined but never used            no-unused-vars
+  Line 20:9:   'success' is assigned a value but never used  no-unused-vars
+  Line 31:11:  'res' is assigned a value but never used      no-unused-vars
+
+src/components/login_page/logout.jsx
+  Line 10:12:  'user' is assigned a value but never used  no-unused-vars
+
+src/components/order_page/index.jsx
+  Line 14:9:  'user' is assigned a value but never used                                                                                                                                                                                                                                                                                  no-unused-vars
+  Line 40:5:  React Hook useEffect has missing dependencies: 'amount' and 'props'. Either include them or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+  Line 89:5:  React Hook useEffect has a missing dependency: 'total'. Either include it or remove the dependency array                                                                                                                                                                                                                   react-hooks/exhaustive-deps
+
+src/components/signin_page/index.jsx
+  Line 7:8:    'Google' is defined but never used                 no-unused-vars
+  Line 32:16:  'setError' is assigned a value but never used      no-unused-vars
+  Line 35:6:   'emailMessage' is assigned a value but never used  no-unused-vars
+  Line 40:24:  Unnecessary escape character: \.                   no-useless-escape
+  Line 92:10:  'res' is assigned a value but never used           no-unused-vars
+
+ERROR in ./src/reportWebVitals.js 5:4-24
+Module not found: Error: Can't resolve 'web-vitals' in '/home/ubuntu/ecom/src'
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'web-vitals' in '/home/ubuntu/ecom/src'
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/ubuntu/ecom/node_modules/web-vitals isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+WARNING in [eslint] 
+src/App.js
+  Line 11:10:  'useConstant' is defined but never used  no-unused-vars
+
+src/components/buy_page/index.jsx
+  Line 6:10:  'useState' is defined but never used  no-unused-vars
+
+src/components/cart_page/index.jsx
+  Line 68:6:  'valuevalue' is assigned a value but never used  no-unused-vars
+
+src/components/common/footer/index.jsx
+  Line 17:19:  Unnecessary escape character: \.                                                                                                                                                       no-useless-escape
+  Line 98:35:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/login_page/index.jsx
+  Line 1:17:   'useEffect' is defined but never used         no-unused-vars
+  Line 5:8:    'Footer' is defined but never used            no-unused-vars
+  Line 20:9:   'success' is assigned a value but never used  no-unused-vars
+  Line 31:11:  'res' is assigned a value but never used      no-unused-vars
+
+src/components/login_page/logout.jsx
+  Line 10:12:  'user' is assigned a value but never used  no-unused-vars
+
+src/components/order_page/index.jsx
+  Line 14:9:  'user' is assigned a value but never used                                                                                                                                                                                                                                                                                  no-unused-vars
+  Line 40:5:  React Hook useEffect has missing dependencies: 'amount' and 'props'. Either include them or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+  Line 89:5:  React Hook useEffect has a missing dependency: 'total'. Either include it or remove the dependency array                                                                                                                                                                                                                   react-hooks/exhaustive-deps
+
+src/components/signin_page/index.jsx
+  Line 7:8:    'Google' is defined but never used                 no-unused-vars
+  Line 32:16:  'setError' is assigned a value but never used      no-unused-vars
+  Line 35:6:   'emailMessage' is assigned a value but never used  no-unused-vars
+  Line 40:24:  Unnecessary escape character: \.                   no-useless-escape
+  Line 92:10:  'res' is assigned a value but never used           no-unused-vars
+
+ERROR in ./src/reportWebVitals.js 5:4-24
+Module not found: Error: Can't resolve 'web-vitals' in '/home/ubuntu/ecom/src'
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.js
+  Line 11:10:  'useConstant' is defined but never used  no-unused-vars
+
+src/components/buy_page/index.jsx
+  Line 6:10:  'useState' is defined but never used  no-unused-vars
+
+src/components/cart_page/index.jsx
+  Line 68:6:  'valuevalue' is assigned a value but never used  no-unused-vars
+
+src/components/common/footer/index.jsx
+  Line 17:19:  Unnecessary escape character: \.                                                                                                                                                       no-useless-escape
+  Line 98:35:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/login_page/index.jsx
+  Line 1:17:   'useEffect' is defined but never used         no-unused-vars
+  Line 5:8:    'Footer' is defined but never used            no-unused-vars
+  Line 20:9:   'success' is assigned a value but never used  no-unused-vars
+  Line 31:11:  'res' is assigned a value but never used      no-unused-vars
+
+src/components/login_page/logout.jsx
+  Line 10:12:  'user' is assigned a value but never used  no-unused-vars
+
+src/components/order_page/index.jsx
+  Line 14:9:  'user' is assigned a value but never used                                                                                                                                                                                                                                                                                  no-unused-vars
+  Line 40:5:  React Hook useEffect has missing dependencies: 'amount' and 'props'. Either include them or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+  Line 89:5:  React Hook useEffect has a missing dependency: 'total'. Either include it or remove the dependency array                                                                                                                                                                                                                   react-hooks/exhaustive-deps
+
+src/components/signin_page/index.jsx
+  Line 7:8:    'Google' is defined but never used                 no-unused-vars
+  Line 32:16:  'setError' is assigned a value but never used      no-unused-vars
+  Line 35:6:   'emailMessage' is assigned a value but never used  no-unused-vars
+  Line 40:24:  Unnecessary escape character: \.                   no-useless-escape
+  Line 92:10:  'res' is assigned a value but never used           no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 11:10:  'useConstant' is defined but never used  no-unused-vars
+
+src/components/buy_page/index.jsx
+  Line 6:10:  'useState' is defined but never used  no-unused-vars
+
+src/components/cart_page/index.jsx
+  Line 68:6:  'valuevalue' is assigned a value but never used  no-unused-vars
+
+src/components/common/footer/index.jsx
+  Line 17:19:  Unnecessary escape character: \.                                                                                                                                                       no-useless-escape
+  Line 98:35:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/login_page/index.jsx
+  Line 1:17:   'useEffect' is defined but never used         no-unused-vars
+  Line 5:8:    'Footer' is defined but never used            no-unused-vars
+  Line 20:9:   'success' is assigned a value but never used  no-unused-vars
+  Line 31:11:  'res' is assigned a value but never used      no-unused-vars
+
+src/components/login_page/logout.jsx
+  Line 10:12:  'user' is assigned a value but never used  no-unused-vars
+
+src/components/order_page/index.jsx
+  Line 14:9:  'user' is assigned a value but never used                                                                                                                                                                                                                                                                                  no-unused-vars
+  Line 40:5:  React Hook useEffect has missing dependencies: 'amount' and 'props'. Either include them or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+  Line 89:5:  React Hook useEffect has a missing dependency: 'total'. Either include it or remove the dependency array                                                                                                                                                                                                                   react-hooks/exhaustive-deps
+
+src/components/signin_page/index.jsx
+  Line 7:8:    'Google' is defined but never used                 no-unused-vars
+  Line 32:16:  'setError' is assigned a value but never used      no-unused-vars
+  Line 35:6:   'emailMessage' is assigned a value but never used  no-unused-vars
+  Line 40:24:  Unnecessary escape character: \.                   no-useless-escape
+  Line 92:10:  'res' is assigned a value but never used           no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.js
+  Line 11:10:  'useConstant' is defined but never used  no-unused-vars
+
+src/components/buy_page/index.jsx
+  Line 6:10:  'useState' is defined but never used  no-unused-vars
+
+src/components/cart_page/index.jsx
+  Line 68:6:  'valuevalue' is assigned a value but never used  no-unused-vars
+
+src/components/common/footer/index.jsx
+  Line 17:19:  Unnecessary escape character: \.                                                                                                                                                       no-useless-escape
+  Line 98:35:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/login_page/index.jsx
+  Line 1:17:   'useEffect' is defined but never used         no-unused-vars
+  Line 5:8:    'Footer' is defined but never used            no-unused-vars
+  Line 20:9:   'success' is assigned a value but never used  no-unused-vars
+  Line 31:11:  'res' is assigned a value but never used      no-unused-vars
+
+src/components/login_page/logout.jsx
+  Line 10:12:  'user' is assigned a value but never used  no-unused-vars
+
+src/components/order_page/index.jsx
+  Line 14:9:  'user' is assigned a value but never used                                                                                                                                                                                                                                                                                  no-unused-vars
+  Line 40:5:  React Hook useEffect has missing dependencies: 'amount' and 'props'. Either include them or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+  Line 89:5:  React Hook useEffect has a missing dependency: 'total'. Either include it or remove the dependency array                                                                                                                                                                                                                   react-hooks/exhaustive-deps
+
+src/components/signin_page/index.jsx
+  Line 7:8:    'Google' is defined but never used                 no-unused-vars
+  Line 32:16:  'setError' is assigned a value but never used      no-unused-vars
+  Line 35:6:   'emailMessage' is assigned a value but never used  no-unused-vars
+  Line 40:24:  Unnecessary escape character: \.                   no-useless-escape
+  Line 92:10:  'res' is assigned a value but never used           no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 11:10:  'useConstant' is defined but never used  no-unused-vars
+
+src/components/buy_page/index.jsx
+  Line 6:10:  'useState' is defined but never used  no-unused-vars
+
+src/components/cart_page/index.jsx
+  Line 68:6:  'valuevalue' is assigned a value but never used  no-unused-vars
+
+src/components/common/footer/index.jsx
+  Line 17:19:  Unnecessary escape character: \.                                                                                                                                                       no-useless-escape
+  Line 98:35:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/login_page/index.jsx
+  Line 1:17:   'useEffect' is defined but never used         no-unused-vars
+  Line 5:8:    'Footer' is defined but never used            no-unused-vars
+  Line 20:9:   'success' is assigned a value but never used  no-unused-vars
+  Line 31:11:  'res' is assigned a value but never used      no-unused-vars
+
+src/components/login_page/logout.jsx
+  Line 10:12:  'user' is assigned a value but never used  no-unused-vars
+
+src/components/order_page/index.jsx
+  Line 14:9:  'user' is assigned a value but never used                                                                                                                                                                                                                                                                                  no-unused-vars
+  Line 40:5:  React Hook useEffect has missing dependencies: 'amount' and 'props'. Either include them or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+  Line 89:5:  React Hook useEffect has a missing dependency: 'total'. Either include it or remove the dependency array                                                                                                                                                                                                                   react-hooks/exhaustive-deps
+
+src/components/signin_page/index.jsx
+  Line 7:8:    'Google' is defined but never used                 no-unused-vars
+  Line 32:16:  'setError' is assigned a value but never used      no-unused-vars
+  Line 35:6:   'emailMessage' is assigned a value but never used  no-unused-vars
+  Line 40:24:  Unnecessary escape character: \.                   no-useless-escape
+  Line 92:10:  'res' is assigned a value but never used           no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.js
+  Line 11:10:  'useConstant' is defined but never used  no-unused-vars
+
+src/components/buy_page/index.jsx
+  Line 6:10:  'useState' is defined but never used  no-unused-vars
+
+src/components/cart_page/index.jsx
+  Line 68:6:  'valuevalue' is assigned a value but never used  no-unused-vars
+
+src/components/common/footer/index.jsx
+  Line 17:19:  Unnecessary escape character: \.                                                                                                                                                       no-useless-escape
+  Line 98:35:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/login_page/index.jsx
+  Line 1:17:   'useEffect' is defined but never used         no-unused-vars
+  Line 5:8:    'Footer' is defined but never used            no-unused-vars
+  Line 20:9:   'success' is assigned a value but never used  no-unused-vars
+  Line 31:11:  'res' is assigned a value but never used      no-unused-vars
+
+src/components/login_page/logout.jsx
+  Line 10:12:  'user' is assigned a value but never used  no-unused-vars
+
+src/components/order_page/index.jsx
+  Line 14:9:  'user' is assigned a value but never used                                                                                                                                                                                                                                                                                  no-unused-vars
+  Line 40:5:  React Hook useEffect has missing dependencies: 'amount' and 'props'. Either include them or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+  Line 89:5:  React Hook useEffect has a missing dependency: 'total'. Either include it or remove the dependency array                                                                                                                                                                                                                   react-hooks/exhaustive-deps
+
+src/components/signin_page/index.jsx
+  Line 7:8:    'Google' is defined but never used                 no-unused-vars
+  Line 32:16:  'setError' is assigned a value but never used      no-unused-vars
+  Line 35:6:   'emailMessage' is assigned a value but never used  no-unused-vars
+  Line 40:24:  Unnecessary escape character: \.                   no-useless-escape
+  Line 92:10:  'res' is assigned a value but never used           no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 11:10:  'useConstant' is defined but never used  no-unused-vars
+
+src/components/buy_page/index.jsx
+  Line 6:10:  'useState' is defined but never used  no-unused-vars
+
+src/components/cart_page/index.jsx
+  Line 68:6:  'valuevalue' is assigned a value but never used  no-unused-vars
+
+src/components/common/footer/index.jsx
+  Line 17:19:  Unnecessary escape character: \.                                                                                                                                                       no-useless-escape
+  Line 98:35:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/login_page/index.jsx
+  Line 1:17:   'useEffect' is defined but never used         no-unused-vars
+  Line 5:8:    'Footer' is defined but never used            no-unused-vars
+  Line 20:9:   'success' is assigned a value but never used  no-unused-vars
+  Line 31:11:  'res' is assigned a value but never used      no-unused-vars
+
+src/components/login_page/logout.jsx
+  Line 10:12:  'user' is assigned a value but never used  no-unused-vars
+
+src/components/order_page/index.jsx
+  Line 14:9:  'user' is assigned a value but never used                                                                                                                                                                                                                                                                                  no-unused-vars
+  Line 40:5:  React Hook useEffect has missing dependencies: 'amount' and 'props'. Either include them or remove the dependency array. However, 'props' will change when *any* prop changes, so the preferred fix is to destructure the 'props' object outside of the useEffect call and refer to those specific props inside useEffect  react-hooks/exhaustive-deps
+  Line 89:5:  React Hook useEffect has a missing dependency: 'total'. Either include it or remove the dependency array                                                                                                                                                                                                                   react-hooks/exhaustive-deps
+
+src/components/signin_page/index.jsx
+  Line 7:8:    'Google' is defined but never used                 no-unused-vars
+  Line 32:16:  'setError' is assigned a value but never used      no-unused-vars
+  Line 35:6:   'emailMessage' is assigned a value but never used  no-unused-vars
+  Line 40:24:  Unnecessary escape character: \.                   no-useless-escape
+  Line 92:10:  'res' is assigned a value but never used           no-unused-vars
+
+webpack compiled with 1 warning

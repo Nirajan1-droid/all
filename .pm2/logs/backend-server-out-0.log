@@ -1,0 +1,136 @@
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+sdfsd@gmail.com
+undefined
+{
+  message: 'Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled'
+}
+sdasd@gmail.com
+undefined
+{
+  message: 'Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled'
+}
+Error: Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 403
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+Error: Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 403
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+Error: Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 403
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+Error: Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 403
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+Error: Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 403
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+Error: Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 403
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+Error: to parameter is not a valid address. please check documentation
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 400
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+Error: to parameter is not a valid address. please check documentation
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 400
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+Error: Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 403
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+Error: Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 403
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+nirabpant91@gmail.com
+undefined
+{
+  message: 'Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled'
+}
+Error: Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 403
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+Error: Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 403
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1
+Error: Domain unicorn-lifestyle.net is not allowed to send: Subscription Canceled
+    at IncomingMessage.<anonymous> (/home/ubuntu/Unicorn-Website/node_modules/mailgun-js/lib/request.js:327:17)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  statusCode: 403
+}
+server is working on http://localhost:5000
+Database connected to 127.0.0.1

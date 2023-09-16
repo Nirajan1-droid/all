@@ -1,0 +1,106 @@
+2023-07-27T04:41:49: PM2 log: ===============================================================================
+2023-07-27T04:41:49: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-07-27T04:41:49: PM2 log: Time                 : Thu Jul 27 2023 04:41:49 GMT+0000 (Coordinated Universal Time)
+2023-07-27T04:41:49: PM2 log: PM2 version          : 5.3.0
+2023-07-27T04:41:49: PM2 log: Node.js version      : 18.17.0
+2023-07-27T04:41:49: PM2 log: Current arch         : x64
+2023-07-27T04:41:49: PM2 log: PM2 home             : /home/ubuntu/.pm2
+2023-07-27T04:41:49: PM2 log: PM2 PID file         : /home/ubuntu/.pm2/pm2.pid
+2023-07-27T04:41:49: PM2 log: RPC socket file      : /home/ubuntu/.pm2/rpc.sock
+2023-07-27T04:41:49: PM2 log: BUS socket file      : /home/ubuntu/.pm2/pub.sock
+2023-07-27T04:41:49: PM2 log: Application log path : /home/ubuntu/.pm2/logs
+2023-07-27T04:41:49: PM2 log: Worker Interval      : 30000
+2023-07-27T04:41:49: PM2 log: Process dump file    : /home/ubuntu/.pm2/dump.pm2
+2023-07-27T04:41:49: PM2 log: Concurrent actions   : 2
+2023-07-27T04:41:49: PM2 log: SIGTERM timeout      : 1600
+2023-07-27T04:41:49: PM2 log: ===============================================================================
+2023-07-27T04:41:49: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-07-27T04:41:49: PM2 log: App [backend-server:0] online
+2023-07-27T04:49:14: PM2 log: App [build:1] starting in -fork mode-
+2023-07-27T04:49:14: PM2 log: App [build:1] online
+2023-07-27T04:59:23: PM2 log: Stopping app:build id:1
+2023-07-27T04:59:23: PM2 log: App [build:1] exited with code [0] via signal [SIGINT]
+2023-07-27T04:59:23: PM2 log: pid=6183 msg=process killed
+2023-07-27T05:03:54: PM2 log: App [build:1] starting in -fork mode-
+2023-07-27T05:03:54: PM2 log: App [build:1] online
+2023-07-27T07:55:40: PM2 log: Stopping app:build id:1
+2023-07-27T07:55:40: PM2 log: App [build:1] exited with code [0] via signal [SIGINT]
+2023-07-27T07:55:40: PM2 log: pid=6551 msg=process killed
+2023-07-27T11:40:16: PM2 log: pm2 has been killed by signal, dumping process list before exit...
+2023-07-27T11:40:16: PM2 log: Deleting process 0
+2023-07-27T11:40:16: PM2 log: Stopping app:backend-server id:0
+2023-07-27T11:40:16: PM2 log: App name:backend-server id:0 disconnected
+2023-07-27T11:40:16: PM2 log: App [backend-server:0] exited with code [0] via signal [SIGHUP]
+2023-07-27T11:40:16: PM2 log: pid=5980 msg=process killed
+2023-07-27T11:40:16: PM2 log: Deleting process 1
+2023-07-27T11:40:16: PM2 log: Exited peacefully
+2023-07-27T12:29:18: PM2 log: ===============================================================================
+2023-07-27T12:29:18: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-07-27T12:29:18: PM2 log: Time                 : Thu Jul 27 2023 12:29:18 GMT+0000 (Coordinated Universal Time)
+2023-07-27T12:29:18: PM2 log: PM2 version          : 5.3.0
+2023-07-27T12:29:18: PM2 log: Node.js version      : 18.17.0
+2023-07-27T12:29:18: PM2 log: Current arch         : x64
+2023-07-27T12:29:18: PM2 log: PM2 home             : /home/ubuntu/.pm2
+2023-07-27T12:29:18: PM2 log: PM2 PID file         : /home/ubuntu/.pm2/pm2.pid
+2023-07-27T12:29:18: PM2 log: RPC socket file      : /home/ubuntu/.pm2/rpc.sock
+2023-07-27T12:29:18: PM2 log: BUS socket file      : /home/ubuntu/.pm2/pub.sock
+2023-07-27T12:29:18: PM2 log: Application log path : /home/ubuntu/.pm2/logs
+2023-07-27T12:29:18: PM2 log: Worker Interval      : 30000
+2023-07-27T12:29:18: PM2 log: Process dump file    : /home/ubuntu/.pm2/dump.pm2
+2023-07-27T12:29:18: PM2 log: Concurrent actions   : 2
+2023-07-27T12:29:18: PM2 log: SIGTERM timeout      : 1600
+2023-07-27T12:29:18: PM2 log: ===============================================================================
+2023-07-27T13:02:21: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-07-27T13:02:22: PM2 log: App [backend-server:0] online
+2023-07-28T11:05:53: PM2 log: App name:backend-server id:0 disconnected
+2023-07-28T11:05:53: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-07-28T11:05:53: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-07-28T11:05:53: PM2 log: App [backend-server:0] online
+2023-07-28T11:06:00: PM2 log: App name:backend-server id:0 disconnected
+2023-07-28T11:06:00: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-07-28T11:06:00: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-07-28T11:06:00: PM2 log: App [backend-server:0] online
+2023-07-28T11:08:48: PM2 log: App name:backend-server id:0 disconnected
+2023-07-28T11:08:48: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-07-28T11:08:48: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-07-28T11:08:48: PM2 log: App [backend-server:0] online
+2023-08-04T17:13:05: PM2 log: App name:backend-server id:0 disconnected
+2023-08-04T17:13:05: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-08-04T17:13:05: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-08-04T17:13:05: PM2 log: App [backend-server:0] online
+2023-08-08T16:19:03: PM2 log: App name:backend-server id:0 disconnected
+2023-08-08T16:19:03: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-08-08T16:19:03: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-08-08T16:19:03: PM2 log: App [backend-server:0] online
+2023-08-10T03:52:24: PM2 log: App name:backend-server id:0 disconnected
+2023-08-10T03:52:24: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-08-10T03:52:24: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-08-10T03:52:24: PM2 log: App [backend-server:0] online
+2023-08-16T10:10:05: PM2 log: App name:backend-server id:0 disconnected
+2023-08-16T10:10:05: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-08-16T10:10:05: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-08-16T10:10:05: PM2 log: App [backend-server:0] online
+2023-08-16T10:44:26: PM2 log: App name:backend-server id:0 disconnected
+2023-08-16T10:44:26: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-08-16T10:44:26: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-08-16T10:44:26: PM2 log: App [backend-server:0] online
+2023-08-18T09:59:29: PM2 log: App name:backend-server id:0 disconnected
+2023-08-18T09:59:29: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-08-18T09:59:29: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-08-18T09:59:29: PM2 log: App [backend-server:0] online
+2023-08-20T18:32:48: PM2 log: App name:backend-server id:0 disconnected
+2023-08-20T18:32:48: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-08-20T18:32:48: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-08-20T18:32:48: PM2 log: App [backend-server:0] online
+2023-08-29T11:54:55: PM2 log: App name:backend-server id:0 disconnected
+2023-08-29T11:54:55: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-08-29T11:54:55: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-08-29T11:54:55: PM2 log: App [backend-server:0] online
+2023-08-29T11:55:38: PM2 log: App name:backend-server id:0 disconnected
+2023-08-29T11:55:38: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-08-29T11:55:38: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-08-29T11:55:38: PM2 log: App [backend-server:0] online
+2023-09-09T02:05:39: PM2 log: App name:backend-server id:0 disconnected
+2023-09-09T02:05:39: PM2 log: App [backend-server:0] exited with code [1] via signal [SIGINT]
+2023-09-09T02:05:39: PM2 log: App [backend-server:0] starting in -cluster mode-
+2023-09-09T02:05:39: PM2 log: App [backend-server:0] online
