@@ -21,6 +21,7 @@ exports.subscribeUser = catchAsyncErrors(async (req, res, next) => {
       const user = await Email.findOne({userEmail});
       
       const subReg = await Register.create({userEmail});
+	
       if (user ) {
         return next(new ErrorHander("Already Subscribed", 401));
       }
