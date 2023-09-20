@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b290bbc8.css",
+    "main.js": "/static/js/main.7086e945.js",
+    "static/media/wave.jpeg": "/static/media/wave.22b496cd2ce854dd9198.jpeg",
+    "static/media/runner.jpeg": "/static/media/runner.5044cecb4b8e462edc56.jpeg",
+    "static/media/speaker.png": "/static/media/speaker.ea670581e462133518ba.png",
+    "static/media/belaima-logo.png": "/static/media/belaima-logo.b59c9ca8c75dee6ec58e.png",
+    "static/media/devices.jpeg": "/static/media/devices.bf0a1751c54e87cc829a.jpeg",
+    "static/media/hero_bud.png": "/static/media/hero_bud.4df3bb68cf70a7c1562f.png",
+    "static/media/buy_earbud.png": "/static/media/buy_earbud.90e947a587de8c16c4a6.png",
+    "static/media/map-bg.jpeg": "/static/media/map-bg.0ca74ba2b1ddb6184af5.jpeg",
+    "static/media/buy_earbud.jpeg": "/static/media/buy_earbud.650a9bce8a19970ce776.jpeg",
+    "static/media/Transparency.jpeg": "/static/media/Transparency.6432f28ddf9cc0a3eab5.jpeg",
+    "static/media/ANC.jpeg": "/static/media/ANC.59c317ea2f50f14b7e71.jpeg",
+    "static/media/dolma.jpeg": "/static/media/dolma.521cab4e5c6c93b8de1e.jpeg",
+    "static/media/ENC.jpeg": "/static/media/ENC.3603c96ec7bc8eff1ac6.jpeg",
+    "static/media/tamanna.jpeg": "/static/media/tamanna.84fb57ad1877a49b1692.jpeg",
+    "static/media/sudip.jpeg": "/static/media/sudip.575a16c0650c2828525e.jpeg",
+    "static/media/smith.jpeg": "/static/media/smith.2f8aaae0e8a9e9a899f6.jpeg",
+    "static/media/sadhana.jpeg": "/static/media/sadhana.a5ea0c28d7cec89fab20.jpeg",
+    "static/media/earbud.png": "/static/media/earbud.6dbc8d0a2a298c1ed7e5.png",
+    "static/media/delivery.png": "/static/media/delivery.b60022fd15efb92f3edf.png",
+    "static/media/service.png": "/static/media/service.50f0f009a639069154bd.png",
+    "static/media/satisfaction.png": "/static/media/satisfaction.fc7f6929801cb8ded418.png",
+    "index.html": "/index.html",
+    "static/media/cart.svg": "/static/media/cart.7856de1a514e0557a1f42cc5d24ffead.svg",
+    "static/media/user.svg": "/static/media/user.134c06c79274ea1c1fba5b2871c6fb38.svg",
+    "main.b290bbc8.css.map": "/static/css/main.b290bbc8.css.map",
+    "main.7086e945.js.map": "/static/js/main.7086e945.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b290bbc8.css",
+    "static/js/main.7086e945.js"
+  ]
+}
