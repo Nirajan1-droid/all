@@ -44,14 +44,8 @@ db.orders.find({})
 db.registermails.find({});
 db.users.find({});
 db.users.find({});
-it
 db.orders.find({})
-it
-db.orders.find();
-it
-db.orders.find();
-it
-it
 db.orders.find();
 db.orders.find();
-it
+db.orders.find();
+db.orders.find();
